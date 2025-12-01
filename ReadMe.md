@@ -80,14 +80,22 @@ Sensor Ultrassônico
 
 --
 
-**🗂️ Estrutura de Arquivos do Projeto**:
+🗂️ **Estrutura de Arquivos do Projeto**
+
+- inicio.html🌐  
+- perguntas.html🌐  
+- equipe.html🌐  
+- prototipo.html🌐
+- styles.css 🎨  
+- Todas as imagens (.jpeg) utilizadas no site 🖼️
+
 
 Site Projeto SD/
 │
-├── inicio.html        🌐
-├── perguntas.html     🌐
-├── equipe.html        🌐
-├── prototipo.html     🌐
-├── styles.css         🎨
+├── index.html 🌐 (Aba Inicial)
+├── perguntas.html 🌐
+├── equipe.html 🌐
+├── prototipo.html 🌐
+├── styles.css 🎨
 │
-└── todas as imagens (.jpeg) utilizadas no site 🖼️
+└── **todas as imagens (.jpeg) utilizadas no site 🖼️**

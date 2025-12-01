@@ -63,7 +63,8 @@ O ciclo se repete continuamente.
 - Linguagem C/C++;
 - Protoboard / Jumpers;
 - Servo Motor;
-- Sensor Ultrassônico.
+- Sensor Ultrassônico;
+- Tinkercad - Simulação do Circuito (https://www.tinkercad.com).
 
 --
 

@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentação - Lixeira Automatizada</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Lixeira Automatizada</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <nav id="navbar">
+    <nav>
         <div class="nav-content">
             <div class="logo-mini">
                 <img src="assets/images/logo.jpeg" alt="Logo">
                 <span>Lixeira Automatizada</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#descricao">Descrição</a></li>
-                <li><a href="#autores">Equipe</a></li>
-                <li><a href="#tecnico">Técnico</a></li>
-                <li><a href="#codigo">Código</a></li>
-                <li><a href="#conclusao">Lições</a></li>
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="especificacoes.html">Especificações</a></li>
+                <li><a href="montagem.html">Montagem & Código</a></li>
             </ul>
             <div class="menu-toggle">☰</div>
         </div>
     </nav>
 
-    <section id="inicio" class="hero-section">
+    <section class="hero-section">
         <div class="hero-content">
             <h1>Lixeira Automatizada 🗑️</h1>
             <p class="tagline">Tecnologia, praticidade e inovação para um descarte consciente.</p>
@@ -36,265 +34,53 @@
                 <span class="badge">Arduino</span>
                 <span class="badge">Sustentabilidade</span>
                 <span class="badge">Acessibilidade</span>
-                <span class="badge">Higiene</span>
             </div>
-            <a href="#descricao" class="btn-hero">Conhecer Projeto</a>
+            <a href="especificacoes.html" class="btn-hero">Ver Detalhes Técnicos</a>
         </div>
     </section>
 
-    <section id="descricao" class="container">
-        <h2>Descrição do Projeto</h2>
-        
+    <section class="container">
+        <h2>Sobre o Projeto</h2>
         <div class="desc-grid">
             <div class="card-desc">
                 <h3>Motivação</h3>
-                <p>O ato de descartar lixo, embora simples, envolve riscos de contaminação e barreiras de acessibilidade. A motivação nasce da necessidade de reduzir o contato físico em ambientes compartilhados e facilitar a vida de pessoas com mobilidade reduzida.</p>
+                <p>O ato de descartar lixo envolve riscos de contaminação e barreiras de acessibilidade. Buscamos reduzir o contato físico em ambientes compartilhados.</p>
             </div>
             <div class="card-desc">
                 <h3>Objetivo</h3>
-                <p>Transformar o descarte de resíduos em um processo 100% automatizado, higiênico e intuitivo, utilizando sensores de baixo custo para criar uma solução replicável e eficiente.</p>
+                <p>Criar um sistema de descarte 100% automatizado e higiênico, utilizando sensores de baixo custo para uma solução replicável.</p>
             </div>
             <div class="card-desc">
                 <h3>Contextualização</h3>
-                <p>Inserido no contexto de Cidades Inteligentes e IoT (Internet das Coisas), o projeto aplica conceitos de Sistemas Digitais para resolver problemas cotidianos de saúde pública e ergonomia doméstica.</p>
+                <p>Projeto inserido no contexto de Cidades Inteligentes e IoT, aplicando conceitos de Sistemas Digitais para saúde pública.</p>
             </div>
         </div>
 
         <div class="esquema-conceitual">
             <h3>Esquema Conceitual</h3>
             <div class="placeholder-img">
-                <p>Insira aqui a imagem do Esquema Conceitual / Diagrama de Blocos</p>
+                <p>Imagem do Esquema Conceitual / Diagrama de Blocos</p>
             </div>
         </div>
     </section>
 
-    <section id="autores" class="container">
-        <h2>Autores 👨🏻‍💻</h2>
-        <div class="equipe-grid">
-    <div class="membro-card">
-        <img src="assets/images/eduardo.jpeg" alt="Eduardo Cavalcanti">
-        <h4>Eduardo Cavalcanti</h4>
-        <div class="social-links">
-            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-
-    <div class="membro-card">
-        <img src="assets/images/joao.jpeg" alt="João Pedro Arruda">
-        <h4>João Pedro Arruda</h4>
-        <div class="social-links">
-            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-
-    <div class="membro-card">
-        <img src="assets/images/glauberson.jpeg" alt="Glauberson Ribeiro">
-        <h4>Glauberson Ribeiro</h4>
-        <div class="social-links">
-            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-
-    <div class="membro-card">
-        <img src="assets/images/helama.jpeg" alt="Helãma Procídio">
-        <h4>Helãma Procídio</h4>
-        <div class="social-links">
-            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-
-    <div class="membro-card">
-        <img src="assets/images/lucas.jpeg" alt="Lucas Paguetti">
-        <h4>Lucas Paguetti</h4>
-        <div class="social-links">
-            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-
-    <div class="membro-card">
-        <img src="assets/images/pablo.jpeg" alt="Pablo Tamborini">
-        <h4>Pablo Tamborini</h4>
-        <div class="social-links">
-            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-
-    <div class="membro-card">
-        <img src="assets/images/rodrigo.jpeg" alt="Rodrigo Morais Silvestri">
-        <h4>Rodrigo Morais Silvestri</h4>
-        <div class="social-links">
-            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-
-    <div class="membro-card">
-        <img src="assets/images/tiago.jpeg" alt="Tiago Luiz">
-        <h4>Tiago Luiz</h4>
-        <div class="social-links">
-            <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-</div>
-    </section>
-
-    <section id="tecnico" class="container">
-        <h2>Especificações Técnicas ⚙️</h2>
-        
-        <h3>Componentes e Suprimentos</h3>
-        <div class="table-responsive">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Componente</th>
-                        <th>Descrição</th>
-                        <th>Qtd.</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Arduino Uno R3</td>
-                        <td>Microcontrolador principal do sistema.</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Sensor Ultrassônico HC-SR04</td>
-                        <td>Realiza a leitura de distância para detecção.</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Servo Motor SG90</td>
-                        <td>Atuador responsável por abrir a tampa.</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Jumpers / Protoboard</td>
-                        <td>Conexões elétricas do circuito.</td>
-                        <td>Vários</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <h3>Aplicativos e Plataformas</h3>
-        <div class="table-responsive">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Software/Ferramenta</th>
-                        <th>Uso</th>
-                        <th>Versão</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Arduino IDE</td>
-                        <td>Programação em C++</td>
-                        <td>2.0+</td>
-                    </tr>
-                    <tr>
-                        <td>Tinkercad</td>
-                        <td>Simulação e prototipagem virtual</td>
-                        <td>Web</td>
-                    </tr>
-                    <tr>
-                        <td>VS Code</td>
-                        <td>Desenvolvimento Web (Documentação)</td>
-                        <td>Latest</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-
-    <section id="montagem" class="container">
-        <h2>Passo a Passo de Montagem 🛠️</h2>
-        <div class="timeline">
-            <div class="step">
-                <div class="step-number">1</div>
-                <div class="step-content">
-                    <h4>Montagem do Circuito</h4>
-                    <p>Conecte o sensor ultrassônico e o servo motor ao Arduino utilizando a protoboard conforme o esquema elétrico.</p>
-                    <div class="step-img-placeholder">Foto da Protoboard</div>
-                </div>
-            </div>
-            <div class="step">
-                <div class="step-number">2</div>
-                <div class="step-content">
-                    <h4>Estrutura Física</h4>
-                    <p>Acople o servo motor na dobradiça da tampa da lixeira e fixe o sensor na parte frontal.</p>
-                    <div class="step-img-placeholder">Foto da Montagem</div>
-                </div>
-            </div>
-            <div class="step">
-                <div class="step-number">3</div>
-                <div class="step-content">
-                    <h4>Upload do Código</h4>
-                    <p>Conecte o Arduino via USB e faça o upload do código fonte através da IDE.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="codigo" class="container">
-        <h2>Código Fonte 💻</h2>
-        <div class="code-wrapper">
-            <p>Abaixo, os trechos essenciais da lógica de controle:</p>
-            <pre><code>
-// Definição dos pinos
-#define TRIGGER_PIN 7
-#define ECHO_PIN 6
-#define SERVO_PIN 9
-
-void loop() {
-  long duration, distance;
-  
-  // Lógica do sensor ultrassônico
-  digitalWrite(TRIGGER_PIN, LOW); 
-  delayMicroseconds(2); 
-  digitalWrite(TRIGGER_PIN, HIGH);
-  
-  // Se distância < 20cm, abrir tampa
-  if (distance < 20) {
-     abrirTampa();
-  }
-}
-            </code></pre>
-            <div class="code-actions">
-                <a href="#" class="btn-download github"><i class="fab fa-github"></i> Ver Repositório Completo</a>
-                <a href="#" class="btn-download zip"><i class="fas fa-file-archive"></i> Baixar Projeto (.zip)</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="video" class="container">
+    <section class="container">
         <h2>Demonstração em Vídeo 🎬</h2>
         <div class="video-container">
-            <iframe 
-                src="https://www.youtube.com/embed/9FOFril-Zs4?si=0aUqVryuTy6Q1VbT"
-                title="Vídeo demonstrativo"
-                allowfullscreen>
-            </iframe>
+            <iframe src="https://www.youtube.com/embed/9FOFril-Zs4" title="Vídeo demonstrativo" allowfullscreen></iframe>
         </div>
     </section>
 
-    <section id="conclusao" class="container">
+    <section class="container">
         <h2>Conclusão e Aprendizados 🧠</h2>
         <div class="desc-grid">
             <div class="card-desc problema">
                 <h3>⚠️ Problemas Enfrentados</h3>
-                <p>Houve dificuldade inicial na calibração do sensor ultrassônico para evitar leituras falsas. Também foi necessário ajustar a força do servo motor para o peso da tampa utilizada.</p>
+                <p>Dificuldade na calibração do sensor ultrassônico e ajuste de torque do servo motor para o peso da tampa.</p>
             </div>
             <div class="card-desc licao">
                 <h3>✅ Lições Aprendidas</h3>
-                <p>Aprendemos sobre a importância da modularização do código e como a escolha dos materiais físicos impacta diretamente na escolha dos componentes eletrônicos (torque vs peso).</p>
+                <p>Importância da modularização do código e impacto dos materiais físicos na escolha dos componentes eletrônicos.</p>
             </div>
         </div>
     </section>
@@ -302,14 +88,9 @@ void loop() {
     <footer>
         <h2 class="parceria-titulo">Em parceria com:</h2>
         <div class="parceria-container">
-            <a href="https://www.cesar.school" target="_blank">
-                <img src="assets/images/Cesar.jpeg" alt="Cesar School">
-            </a>
-            <a href="https://www.portodigital.org" target="_blank">
-                <img src="assets/images/Porto.jpeg" alt="Porto Digital">
-            </a>
+            <a href="https://www.cesar.school" target="_blank"><img src="assets/images/Cesar.jpeg" alt="Cesar School"></a>
+            <a href="https://www.portodigital.org" target="_blank"><img src="assets/images/Porto.jpeg" alt="Porto Digital"></a>
         </div>
-        <p style="margin-top: 20px; color: #555; font-size: 12px;">Disciplina de Sistemas Digitais - 2025.2</p>
     </footer>
 
     <script src="js/script.js"></script>

@@ -392,3 +392,9 @@ footer {
     .timeline { border: none; margin: 0; padding: 0; }
     .step-number { position: static; display: inline-block; margin-bottom: 10px; }
 }
+
+.nav-links a.active {
+    color: #005eff; /* Azul */
+    border-bottom: 2px solid #005eff;
+    padding-bottom: 5px;
+}

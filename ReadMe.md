@@ -51,10 +51,13 @@ Para a construção do protótipo físico, foram utilizados:
 ## 🛠️💻 Tecnologias e Ferramentas
 
 ### 🌐 Documentação Web (Site)
+
 <p align="left">
   <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
   &nbsp;
   <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+  &nbsp;
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
 </p>
 
 ### 🤖 Protótipo e Lógica

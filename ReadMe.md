@@ -1,6 +1,6 @@
 # 🗑️ Lixeira Automatizada com Arduino
 
-> Projeto desenvolvido para a disciplina de **Sistemas Digitais** > **Instituição:** Cesar School 🏫🧡  
+> Projeto desenvolvido para a disciplina de **Sistemas Digitais** > **Instituição:** Cesar School 🏫🧡🎓
 > **Curso:** Análise e Desenvolvimento de Sistemas — 1º Período (Noturno)
 
 ---
